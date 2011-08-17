@@ -113,10 +113,11 @@ return array(
 		'cache_dir' => APPPATH.'cache'.DS.'jade'.DS,
 	),
 
-	// HAML / PHAMLP ( http://code.google.com/p/phamlp/ )
+	// HAML / HamlPHP ( https://github.com/sniemela/HamlPHP )
 	// ------------------------------------------------------------------------
 	'View_Haml'   => array(
-		'include'   => APPPATH.'vendor'.DS.'Phamlp'.DS.'haml'.DS.'HamlParser.php',
+  'include'     => array(PKGPATH.'parser'.DS.'vendor'.DS.'HamlPHP'.DS.'HamlPHP.php',
+                         PKGPATH.'parser'.DS.'vendor'.DS.'HamlPHP'.DS.'Storage'.DS.'FileStorage.php'),
 		'cache_dir' => APPPATH.'cache'.DS.'haml'.DS,
 	),
 
