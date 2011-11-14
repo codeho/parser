@@ -1,5 +1,14 @@
 # Parser package
 
+## A Note from codeho
+Hi,
+This is a fork of Fuel's Parser Package.
+I forked this, because i wanted to make this work with sniemela's HamlPHP
+(https://github.com/sniemela/HamlPHP)
+There are some, but not many changes i had to make to get this to work,
+and some day i will see if i can make those changes non-invasive so this can be put
+back into fuelPHP's general parser package.
+
 ## Installing
 
 Currently only available as download or clone from Github. Like any other package it must be put in its own 'parser' dir in the packages dir and added to your app/config/config.php as an always loaded package.
