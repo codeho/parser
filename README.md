@@ -21,8 +21,8 @@ Currently only available as download or clone from Github. Like any other packag
 // old usage still valid, will load app/views/example.php
 View::factory('example');
 
-// load a SimpleTags template, will load and parse app/views/example.stags
-View::factory('example.stags');
+// load a Haml template, will load and parse app/views/example.haml
+View::factory('example.haml');
 
 // load a Mustache template, will load and parse app/views/example.mustache
 View::factory('example.mustache');
