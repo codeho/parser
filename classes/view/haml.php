@@ -25,7 +25,6 @@ class View_Haml extends \View {
 	
     static::cache_init($view_filename);
     $file = static::parser()->parseFile($view_filename, $view_data);
-
 		
 		return parent::capture($file, $view_data);
 
